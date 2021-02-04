@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Table from "./components/Table";
-import Header from "./components/Header"
+import Header from "./components/Header";
+// import UserCard from "./components/UserCard";
+// import TableRow from "./components/TableRow";
+// import Input from "./components/Input";
+// Input EmployeeContainer from "./components/EmployeeContainer"
+
 
 
 function App() {
@@ -15,6 +20,14 @@ function App() {
       <Header />
 
       <Table />
+
+      {/* <UserCard /> */}
+
+      {/* <TableRow /> */}
+
+      {/* <Input /> */}
+
+      {/* <EmployeeContainer /> */}
     </div>
   );
 }
