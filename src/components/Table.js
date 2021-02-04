@@ -12,6 +12,7 @@ class Table extends React.Component {
         this.fetchUsers();
     }
     fetchUsers() {
+        // call to API. Works
         axios.get('https://randomuser.me/api/?results=20')
             .then((res) => {
                 this.setState((state, props) => {
