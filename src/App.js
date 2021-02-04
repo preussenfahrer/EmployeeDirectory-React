@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import Table from "./components/Table";
+import Header from "./components/Header"
 
 
 function App() {
   return (
-    <div className="App">
-      <Table>
+    // <div className="App">
+    //   <Table>
 
-      </Table>
+    //   </Table>
+    // </div>
+    <div>
+      <Header />
+
+      <Table />
     </div>
   );
 }
