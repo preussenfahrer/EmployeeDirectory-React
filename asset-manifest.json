@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/preussenfahrer/EmployeeDirectory-React/static/css/main.3a4e0354.chunk.css",
+    "main.js": "/preussenfahrer/EmployeeDirectory-React/static/js/main.f1a4c31a.chunk.js",
+    "main.js.map": "/preussenfahrer/EmployeeDirectory-React/static/js/main.f1a4c31a.chunk.js.map",
+    "runtime-main.js": "/preussenfahrer/EmployeeDirectory-React/static/js/runtime-main.5b5fcee8.js",
+    "runtime-main.js.map": "/preussenfahrer/EmployeeDirectory-React/static/js/runtime-main.5b5fcee8.js.map",
+    "static/css/2.150d169a.chunk.css": "/preussenfahrer/EmployeeDirectory-React/static/css/2.150d169a.chunk.css",
+    "static/js/2.09439e62.chunk.js": "/preussenfahrer/EmployeeDirectory-React/static/js/2.09439e62.chunk.js",
+    "static/js/2.09439e62.chunk.js.map": "/preussenfahrer/EmployeeDirectory-React/static/js/2.09439e62.chunk.js.map",
+    "static/js/3.51222739.chunk.js": "/preussenfahrer/EmployeeDirectory-React/static/js/3.51222739.chunk.js",
+    "static/js/3.51222739.chunk.js.map": "/preussenfahrer/EmployeeDirectory-React/static/js/3.51222739.chunk.js.map",
+    "index.html": "/preussenfahrer/EmployeeDirectory-React/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/preussenfahrer/EmployeeDirectory-React/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.3a4e0354.chunk.css.map": "/preussenfahrer/EmployeeDirectory-React/static/css/main.3a4e0354.chunk.css.map",
+    "static/js/2.09439e62.chunk.js.LICENSE.txt": "/preussenfahrer/EmployeeDirectory-React/static/js/2.09439e62.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b5fcee8.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.09439e62.chunk.js",
+    "static/css/main.3a4e0354.chunk.css",
+    "static/js/main.f1a4c31a.chunk.js"
+  ]
+}
