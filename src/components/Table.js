@@ -1,8 +1,8 @@
-import React from "react";
+import { Component } from "react";
 import TableRow from "./TableRow";
 import axios from "axios";
 
-class Table extends React.Component {
+class Table extends Component {
     constructor(params){
         super(params);
         this.state = {users: []}
@@ -27,6 +27,9 @@ class Table extends React.Component {
                 <tr>
                     {/* Each one will be a column in the table */}
                     <th>Name</th>
+                    <th>Country</th>
+                    <th>Email</th>
+                    <th>Phone</th>
                 </tr>
             </thead>
             <tbody>
