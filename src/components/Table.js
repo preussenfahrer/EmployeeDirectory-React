@@ -22,11 +22,13 @@ class Table extends Component {
             })
     }
     render() {
-        return <table>
+        return (
+        <table className="table mt-3">
             <thead>
                 <tr>
                     {/* Each one will be a column in the table */}
                     <th>Name</th>
+                    <th>Date of Birth</th>
                     <th>Country</th>
                     <th>Email</th>
                     <th>Phone</th>
@@ -36,7 +38,8 @@ class Table extends Component {
                 <TableRow>
                 </TableRow>
             </tbody>
-        </table>;
+        </table>
+        )
     }
 }
 

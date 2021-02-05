@@ -19,8 +19,6 @@ function App() {
     <div>
       <Header />
 
-      {/* <TableRow /> */}
-
       <Input />
 
       <Table />
