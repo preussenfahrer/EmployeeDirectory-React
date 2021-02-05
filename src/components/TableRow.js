@@ -4,7 +4,7 @@ class TableRow extends React.Component {
     render(){
         return <tr>
             <td>
-                John Smith
+                {/* John Smith */}
             </td>
         </tr>
     }

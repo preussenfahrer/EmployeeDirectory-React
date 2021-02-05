@@ -13,7 +13,7 @@ class Table extends Component {
     }
     fetchUsers() {
         // call to API. Works
-        axios.get('https://randomuser.me/api/?results=20')
+        axios.get('https://randomuser.me/api/?results=25')
             .then((res) => {
                 this.setState((state, props) => {
                     return{users: res.data.results}
@@ -27,11 +27,10 @@ class Table extends Component {
             <thead>
                 <tr>
                     {/* Each one will be a column in the table */}
+                    <th>Gender</th>
                     <th>Name</th>
-                    <th>Date of Birth</th>
-                    <th>Country</th>
+                    <th>Location</th>
                     <th>Email</th>
-                    <th>Phone</th>
                 </tr>
             </thead>
             <tbody>
