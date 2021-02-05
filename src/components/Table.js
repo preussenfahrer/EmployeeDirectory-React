@@ -1,6 +1,6 @@
 import { Component } from "react";
 import TableRow from "./TableRow";
-import axios from "axios";
+import { API } from "../utils/API";
 
 class Table extends Component {
     constructor(params){
