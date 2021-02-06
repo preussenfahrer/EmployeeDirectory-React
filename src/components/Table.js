@@ -1,6 +1,8 @@
 import { Component } from "react";
 import TableRow from "./TableRow";
-import { API } from "../utils/API";
+import axios from "axios";
+
+
 
 class Table extends Component {
     constructor(params){
@@ -11,16 +13,16 @@ class Table extends Component {
     componentDidMount() {
         this.fetchUsers();
     }
-    // fetchUsers() {
-    //     // call to API. Works
-    //     axios.get('https://randomuser.me/api/?results=25')
-    //         .then((res) => {
-    //             this.setState((state, props) => {
-    //                 return{users: res.data.results}
-    //             })
-    //             console.log(this.state);
-    //         })
-    // }
+    fetchUsers() {
+        // call to API. Works
+        axios.get('https://randomuser.me/api/?results=5&gender,name,location,email')
+            .then((res) => {
+                this.setState((state, props) => {
+                    return{users: res.data.results}
+                })
+                console.log(this.state);
+            })
+    }
     render() {
         return (
         <table className="table mt-3">
@@ -36,6 +38,7 @@ class Table extends Component {
             <tbody>
                 <TableRow>
                 </TableRow>
+                {/* <UserCard /> */}
             </tbody>
         </table>
         )

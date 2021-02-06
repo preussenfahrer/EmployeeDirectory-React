@@ -11,11 +11,6 @@ import Input from "./components/Input";
 
 function App() {
   return (
-    // <div className="App">
-    //   <Table>
-
-    //   </Table>
-    // </div>
     <div>
       <Header />
 
@@ -25,7 +20,6 @@ function App() {
 
       <UserCard />
 
-      {/* <EmployeeContainer /> */}
     </div>
   );
 }
