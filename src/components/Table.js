@@ -10,6 +10,7 @@ class Table extends Component {
         this.state = {users: []}
 
     }
+
     componentDidMount() {
         this.fetchUsers();
     }
