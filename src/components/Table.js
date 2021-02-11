@@ -2,16 +2,12 @@ import { Component } from "react";
 import TableRow from "./TableRow";
 import axios from "axios";
 
-
-
 class Table extends Component {
     constructor(params){
         super(params);
         this.state = {users: []}
 
     }
-
-    
 
     componentDidMount() {
         this.fetchUsers();
